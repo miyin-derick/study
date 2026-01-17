@@ -32,6 +32,7 @@ let textnum = [
   { input: (strs = "([)]"), output: false },
   { input: (strs = "(]"), output: false },
   { input: (strs = "["), output: false },
+  { input: (strs = "}"), output: false }
 ];
 
 for (var i = 0; i < textnum.length; i++) {
